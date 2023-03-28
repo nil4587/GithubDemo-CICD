@@ -84,13 +84,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		04CFB98DB2AA32A82DFC0FF7 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Pods;
-			sourceTree = "<group>";
-		};
 		DE431DFA29D06B4200F28B3D = {
 			isa = PBXGroup;
 			children = (
@@ -98,7 +91,6 @@
 				DE431E1629D06B4300F28B3D /* GitHubDemoTests */,
 				DE431E2029D06B4300F28B3D /* GitHubDemoUITests */,
 				DE431E0429D06B4200F28B3D /* Products */,
-				04CFB98DB2AA32A82DFC0FF7 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -248,7 +240,7 @@
 			);
 			mainGroup = DE431DFA29D06B4200F28B3D;
 			packageReferences = (
-				DE431E3029D09EE900F28B3D /* XCRemoteSwiftPackageReference "appcenter-sdk-apple.git" */,
+				DE431E3029D09EE900F28B3D /* XCRemoteSwiftPackageReference "appcenter-sdk-apple" */,
 			);
 			productRefGroup = DE431E0429D06B4200F28B3D /* Products */;
 			projectDirPath = "";
@@ -622,7 +614,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		DE431E3029D09EE900F28B3D /* XCRemoteSwiftPackageReference "appcenter-sdk-apple.git" */ = {
+		DE431E3029D09EE900F28B3D /* XCRemoteSwiftPackageReference "appcenter-sdk-apple" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/microsoft/appcenter-sdk-apple.git";
 			requirement = {
@@ -635,32 +627,32 @@
 /* Begin XCSwiftPackageProductDependency section */
 		DE431E3129D09EE900F28B3D /* AppCenterAnalytics */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = DE431E3029D09EE900F28B3D /* XCRemoteSwiftPackageReference "appcenter-sdk-apple.git" */;
+			package = DE431E3029D09EE900F28B3D /* XCRemoteSwiftPackageReference "appcenter-sdk-apple" */;
 			productName = AppCenterAnalytics;
 		};
 		DE431E3329D09EE900F28B3D /* AppCenterCrashes */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = DE431E3029D09EE900F28B3D /* XCRemoteSwiftPackageReference "appcenter-sdk-apple.git" */;
+			package = DE431E3029D09EE900F28B3D /* XCRemoteSwiftPackageReference "appcenter-sdk-apple" */;
 			productName = AppCenterCrashes;
 		};
 		DE431E3529D09EE900F28B3D /* AppCenterDistribute */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = DE431E3029D09EE900F28B3D /* XCRemoteSwiftPackageReference "appcenter-sdk-apple.git" */;
+			package = DE431E3029D09EE900F28B3D /* XCRemoteSwiftPackageReference "appcenter-sdk-apple" */;
 			productName = AppCenterDistribute;
 		};
 		DE431E3829D0A3D500F28B3D /* AppCenterAnalytics */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = DE431E3029D09EE900F28B3D /* XCRemoteSwiftPackageReference "appcenter-sdk-apple.git" */;
+			package = DE431E3029D09EE900F28B3D /* XCRemoteSwiftPackageReference "appcenter-sdk-apple" */;
 			productName = AppCenterAnalytics;
 		};
 		DE431E3A29D0A3D500F28B3D /* AppCenterCrashes */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = DE431E3029D09EE900F28B3D /* XCRemoteSwiftPackageReference "appcenter-sdk-apple.git" */;
+			package = DE431E3029D09EE900F28B3D /* XCRemoteSwiftPackageReference "appcenter-sdk-apple" */;
 			productName = AppCenterCrashes;
 		};
 		DE431E3C29D0A3D500F28B3D /* AppCenterDistribute */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = DE431E3029D09EE900F28B3D /* XCRemoteSwiftPackageReference "appcenter-sdk-apple.git" */;
+			package = DE431E3029D09EE900F28B3D /* XCRemoteSwiftPackageReference "appcenter-sdk-apple" */;
 			productName = AppCenterDistribute;
 		};
 /* End XCSwiftPackageProductDependency section */
