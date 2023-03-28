@@ -20,7 +20,7 @@ struct GitHubDemoApp: App {
                 }
         }
     }
-    
+
     func launchMSAppCenter() {
         AppCenter.start(withAppSecret: "940b8937-793d-4bad-bcac-81fdb14a1a55", services:[
             Crashes.self, Analytics.self
